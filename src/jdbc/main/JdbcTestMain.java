@@ -35,11 +35,11 @@ public class JdbcTestMain {
 			System.out.println(query2);
 			rs = stmt.executeQuery(query2);
 			while (rs.next()) {
-				System.out.print("이름은>>" + rs.getString("name"));
-				System.out.print(" 키는>>" + rs.getString("height"));
-				System.out.print(" 체중은>>" + rs.getString("weight"));
-				System.out.print(" 나이는>>" + rs.getInt("age"));
-				System.out.println(" 성별은>>" + rs.getString("sex"));
+				System.out.print("이름 >" + rs.getString("name"));
+				System.out.print(" 키 >" + rs.getString("height"));
+				System.out.print(" 체중 >" + rs.getString("weight"));
+				System.out.print(" 나이 >" + rs.getInt("age"));
+				System.out.println(" 성별 >" + rs.getString("sex"));
 			}
 
 			rs.close();
