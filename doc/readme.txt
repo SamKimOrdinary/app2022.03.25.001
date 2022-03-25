@@ -5,26 +5,6 @@
 2. DAO (Data Access Object)
 3. DTO (Data Transfer Object), VO(Value Object)
 
-JSP 페이지에 Parameter 전달
-JSP와 서블릿의 관계는?
-
-JSP에서 POJO DAO 사용 (JDBC)
-Servlet에서 POSO DAO 사용 (JDBC)
-
-Servlet에서 Parameter 전달
-JSP와 Servlet 소스비교
-
-JSP에서 Parameter를 이용하여 POJO DAO 사용
-Servlet에서 Parameter를 이용하여 POJO DAO 사용
-
-
---------------------------------------------------
- Servlet에서 JNID사용
---------------------------------------------------
-JNDI 설정
-serverconfig.xml
-context.xml
-
 
 --------------------------------------------------
  SQL
