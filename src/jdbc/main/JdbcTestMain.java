@@ -29,7 +29,8 @@ public class JdbcTestMain {
 			
 			String query = "INSERT INTO member VALUES ( '유돌이' , '165', '45' , 18 , '여' )";
 			System.out.println(query);
-			stmt.executeUpdate(query);
+			int nRet = stmt.executeUpdate(query);
+			System.out.println("result:" + nRet + "개의 레코드가 삽입되었습니다.");
 			
 			String query2 = "SELECT * FROM member";
 			System.out.println(query2);
